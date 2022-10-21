@@ -1,0 +1,42 @@
+body {
+    background-color: #ffffee;
+    color: #53504B;
+}
+
+#corpo {
+    position: relative;
+    margin: auto;
+    border: 2px solid #53504B;
+    border-radius: 10px;
+    width: 50%;
+
+}
+#corpo h1,h2 {
+    text-align: center;
+    word-wrap: break-word;
+    padding: 20px;
+}
+
+#inserir {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding:  1%;
+    text-align: center;
+    margin:  0 auto;
+
+}
+#radio {
+    margin: 30px 0px 0px 20px;
+}
+#radio input {
+    display: inline;
+}
+#butoes {
+    text-align: center;
+}
+#butoes button {
+    width: 50%;
+    margin-top: 10px;
+    
+}

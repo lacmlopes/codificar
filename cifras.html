@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Codificar!</title>
+    <link rel="stylesheet" href="cifras.css">
+</head>
+<body>
+<div id="corpo">
+    <h1>Codificar!</h1>
+    <input type="text" placeholder="Insira sua mensagem aqui!" id="inserir">
+    <div id="butoes">
+       <div id="radio">
+            <input type="radio" id="base64" name="cifra" value="Base64">
+            <label for="Base64">Base64</label>
+            <input type="radio" id="cesar" name="cifra" value="Cesar">
+            <label for="Cesar">Cifra de César</label>
+       </div>
+
+       <button id="codificar">Codificar</button>
+       <button id="decodificar" disabled>Decodificar</button>
+        
+    </div>
+    
+    <div id="divOut">
+         <h1 id="output"></h1>   
+    </div>
+
+</div>
+<script src="cripto.js"></script>
+</body>
+</html>
